@@ -1,4 +1,4 @@
-ffrom mpmath import mp
+from mpmath import mp
 def print_pi_to_n_digits(n):
 
     # Set precision to n decimal places
@@ -8,5 +8,4 @@ def print_pi_to_n_digits(n):
     # Return pi to n decimal places as a string
 
     return str(mp.pi)
-p=print_pi_to_n_digits(10)
-print(p)
+
